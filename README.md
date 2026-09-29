@@ -6,6 +6,8 @@ Maintained by the team behind Pink Agentic AI Payment (PinkWallet); entries are 
 
 Every link below was fetched directly and confirmed live on 2026-09-29 (see [`link-check.csv`](./link-check.csv) in this repo for the full audit trail). Every description is sourced from the linked page itself — see the same file for exactly which URL each description came from.
 
+See also: [Agentic Payments Timeline (2024–2026)](./TIMELINE.md): 30 dated, source-linked events from MCP's release to the x402 Foundation.
+
 ## Contents
 
 - [Protocols & Standards](#protocols--standards)
