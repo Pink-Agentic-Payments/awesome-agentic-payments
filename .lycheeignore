@@ -2,3 +2,6 @@ https://awesome.re/badge.svg
 https://awesome.re
 mirrors.creativecommons.org
 linkedin.com
+
+# razorpay.com blocks GitHub-hosted runners (returns 200 from normal clients; last manually verified 2026-09-29)
+razorpay\.com
