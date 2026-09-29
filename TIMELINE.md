@@ -1,5 +1,7 @@
 # Agentic Payments Timeline (2024–2026)
 
+English | [简体中文](./TIMELINE.zh-CN.md)
+
 A dated, source-linked timeline of protocol launches, official payment MCP servers, card-network agent programs and governance changes in AI agent payments.
 
 Last updated: 2026-09-29. Every event links to a primary source; the verbatim supporting quote for each row is in [timeline.csv](./timeline.csv).

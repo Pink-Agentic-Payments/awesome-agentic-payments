@@ -1,5 +1,7 @@
 # Awesome Agentic AI Payments [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+English | [简体中文](./README.zh-CN.md)
+
 A curated list of protocols, MCP servers, wallets, spending controls and research for letting AI agents make payments safely.
 
 Maintained by the team behind Pink Agentic AI Payment (PinkWallet); entries are selected on merit and include competitors.
