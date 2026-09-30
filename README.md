@@ -82,6 +82,7 @@ Runnable code, not just specs.
 
 - [AP2 announcement (Google Cloud)](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol) — Google Cloud's announcement of the Agent Payments Protocol, explaining that an Intent Mandate "provides the auditable context for the entire interaction" and a Cart Mandate "creates a secure, unchangeable record of the exact items and price."
 - [AP2 joins FIDO Alliance (Google)](https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/) — Google's 2026-04-28 announcement that transitioning ownership to the FIDO Alliance "ensures AP2 remains platform-agnostic and community-led."
+- [Agent Spending Controls Crosswalk](https://github.com/Pink-Agentic-Payments/agent-spending-controls-crosswalk) — Vendor-neutral crosswalk of how 14 payment providers and protocols cap AI agent spending: 43 quoted rows covering exact field names, units, and enforcement points, each sourced to a verbatim quote (CC BY 4.0). *(maintained by the list authors)*
 - [Agentic Commerce Protocol announcement (Stripe)](https://stripe.com/blog/developing-an-open-standard-for-agentic-commerce) — Stripe and OpenAI's announcement of ACP, describing it as enabling "programmatic commerce flows between buyers, AI agents, and businesses" while the business "is the merchant of record."
 - [Machine Payments Protocol announcement (Stripe)](https://stripe.com/blog/machine-payments-protocol) — Stripe's 2026-03-18 announcement of MPP, "co-authored by Tempo and Stripe," supporting "stablecoins as well as fiat with cards and buy now, pay later payment methods via Shared Payment Tokens (SPTs)."
 - [Pink agentic-payments-readiness](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness) — "Can AI agents actually pay? 16 payment providers scored on 7 agent-readiness dimensions, evidence-linked (CC BY 4.0)." 228 total checks, each with an evidence URL, direct quote and access date. *(maintained by the list authors)*
@@ -112,3 +113,4 @@ Open a PR adding your entry in the correct alphabetical position within its sect
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the list authors have waived all copyright and related or neighboring rights to this work. See [LICENSE](./LICENSE) (CC0-1.0).
+
