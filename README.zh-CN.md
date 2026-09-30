@@ -82,6 +82,7 @@
 
 - [AP2 announcement (Google Cloud)](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol) — Google Cloud 关于 Agent Payments Protocol 的发布公告，说明 Intent Mandate"provides the auditable context for the entire interaction"（译：为整个交互过程提供可审计的上下文），而 Cart Mandate"creates a secure, unchangeable record of the exact items and price."（译：为具体商品与价格创建一份安全、不可更改的记录）。
 - [AP2 joins FIDO Alliance (Google)](https://blog.google/products-and-platforms/platforms/google-pay/agent-payments-protocol-fido-alliance/) — Google 于 2026-04-28 发布的公告，称将所有权转移至 FIDO Alliance"ensures AP2 remains platform-agnostic and community-led"（译：确保 AP2 保持平台中立、由社区主导）。
+- [Agent Spending Controls Crosswalk](https://github.com/Pink-Agentic-Payments/agent-spending-controls-crosswalk) — 一份厂商中立的对照表，梳理 14 家支付服务商与协议如何限制 AI 智能体的花费：共 43 行引用数据，涵盖具体字段名称、单位与执行点，每行均附原文引用来源（CC BY 4.0）。*（本列表维护方的项目）*
 - [Agentic Commerce Protocol announcement (Stripe)](https://stripe.com/blog/developing-an-open-standard-for-agentic-commerce) — Stripe 与 OpenAI 关于 ACP 的发布公告，将其描述为支持"programmatic commerce flows between buyers, AI agents, and businesses"（译：买家、AI 智能体与商家之间的程序化商务流程），同时商家"is the merchant of record."（译：作为记录商户）。
 - [Machine Payments Protocol announcement (Stripe)](https://stripe.com/blog/machine-payments-protocol) — Stripe 于 2026-03-18 发布的 MPP 公告，"co-authored by Tempo and Stripe,"（译：由 Tempo 与 Stripe 共同撰写），支持"stablecoins as well as fiat with cards and buy now, pay later payment methods via Shared Payment Tokens (SPTs)."（译：稳定币，以及通过 Shared Payment Tokens（SPTs）实现的、含卡与先买后付方式的法币支付）。
 - [Pink agentic-payments-readiness](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness) — "Can AI agents actually pay? 16 payment providers scored on 7 agent-readiness dimensions, evidence-linked (CC BY 4.0)."（译：AI 智能体真的能付款吗？对 16 家支付服务商在 7 个智能体就绪度维度上进行评分，并附证据链接（CC BY 4.0）。）共 228 项检查，每项均附证据 URL、原文引用与访问日期。*（本列表维护方的项目）*
@@ -112,3 +113,4 @@
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 在法律允许的范围内，本列表作者已放弃对本作品的一切版权及相关或邻接权利。详见 [LICENSE](./LICENSE)（CC0-1.0）。
+
