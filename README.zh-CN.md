@@ -4,7 +4,7 @@
 
 精选 AI 智能体（AI agent）安全完成支付所需的协议、MCP 服务器、钱包、消费管控工具与研究资料。
 
-本列表由 Pink Agentic AI Payment（PinkWallet）团队维护；条目按实际价值收录，包括竞争对手。
+本列表由 Pink Agentic AI Payments（PinkWallet）团队维护；条目按实际价值收录，包括竞争对手。
 
 以下每个链接均于 2026-09-29 直接抓取并确认可正常访问（完整审计记录见本仓库的 [`link-check.csv`](./link-check.csv)）。每条描述均取自对应链接页面本身——具体每条描述来自哪个 URL，同样可在该文件中查到。
 
@@ -53,7 +53,7 @@
 - [Crossmint Agent Checkouts](https://docs.crossmint.com/agents/overview) — 远程 MCP 服务器（create-order、check-order、get-usd-balance），一旦环境变量从 test 切换到 prod，即可执行真实购买。根据[结账 MCP 服务器的 README](https://github.com/Crossmint/mcp-crossmint-checkout)，商品会以加急配送方式送达，并生成收据、代收销售税。
 - [Locus](https://paywithlocus.com/) — "One Account for Every AI Agent Tool"（译：一个账户，适用于每一个 AI 智能体工具）：让"an AI agent one connection to a catalog of paid APIs and proprietary data sources,"（译：一个 AI 智能体只需一次连接，即可访问一整套付费 API 与专有数据源目录），并可"from one balance instead of relying on separate provider accounts, subscriptions, and API keys."（译：使用同一个余额支付，而不必依赖各家分散的服务商账户、订阅与 API key）。
 - [Payman (Genie)](https://github.com/PaymanAI/genie-mcp-stdio) — 一个本地 stdio 桥接程序，连接到 Payman 的远程 Genie MCP 服务器，通过带 PKCE 的 OAuth 2.0 进行身份验证。官方 README 记录了一个 `ask_genie` 自然语言工具，以及若干自助账户管理工具；并未列出支付执行类工具。
-- [Pink Agentic AI Payment](https://pinkwallet.com/agentic/?utm_source=github&utm_medium=awesome-list) — "Lets AI agents connect and pay through MCP while a policy engine enforces each customer's spending rules before any payment executes."（译：让 AI 智能体通过 MCP 连接并完成支付，同时由策略引擎在任何支付执行前，强制执行每个客户设定的消费规则。）MCP 服务器 + 支付执行前强制生效的消费规则（early access——暂无公开沙盒环境或安装包；可加入等候名单）。*（本列表维护方的项目）*
+- [Pink Agentic AI Payments](https://pinkwallet.com/agentic/?utm_source=github&utm_medium=awesome-list) — "Lets AI agents connect and pay through MCP while a policy engine enforces each customer's spending rules before any payment executes."（译：让 AI 智能体通过 MCP 连接并完成支付，同时由策略引擎在任何支付执行前，强制执行每个客户设定的消费规则。）MCP 服务器 + 支付执行前强制生效的消费规则（early access——暂无公开沙盒环境或安装包；可加入等候名单）。*（本列表维护方的项目）*
 - [Skyfire (KYA / KYAPay)](https://docs.skyfire.xyz/docs/developer-documentation) — 身份加支付的令牌协议："each buyer agent has a wallet, funded by the user,"（译：每个买方智能体都拥有一个由用户注资的钱包），该钱包向卖方 MCP 服务器、API 或网站出示已签名的 JWT 令牌（kya、pay、kya-pay）以完成交易。
 - [Tempo Wallet CLI](https://tempo.xyz/developers/docs/wallet/use-with-agents) — 命令行钱包，"each wallet can have multiple access keys with independent spending limits."（译：每个钱包可拥有多个访问密钥，各自具有独立的消费限额）。`--max-spend` 会"stop[s] if the request would exceed a spend cap,"（译：在请求将超出消费上限时予以阻止），`--dry-run` 则可在提交资金前预览费用并验证请求。
 

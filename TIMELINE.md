@@ -42,7 +42,7 @@ Last updated: 2026-09-29. Every event links to a primary source; the verbatim su
 - **2026-06-18**: Airwallex: Launched AgentOS, a toolkit for operating an Airwallex account from AI agent environments ([source](https://www.airwallex.com/global/blog/introducing-airwallex-agentos-manage-your-financial-operations-in-your-preferred-agent-environment))
 - **2026-07-01**: Cloudflare: Announced Monetization Gateway, letting customers charge AI agents for web pages, datasets, APIs or MCP tools ([source](https://blog.cloudflare.com/monetization-gateway/))
 - **2026-07-14**: Linux Foundation: x402 Foundation had its operational launch with 40 member organizations ([source](https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications))
-- **2026-09-28**: PinkWallet (Pink Agentic AI Payment): Published the Agentic Payments Readiness Report 2026, scoring 13 payment providers on 7 agent-readiness dimensions (by the maintainers of this list) ([source](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness/releases/tag/v1.1))
+- **2026-09-28**: PinkWallet (Pink Agentic AI Payments): Published the Agentic Payments Readiness Report 2026, scoring 13 payment providers on 7 agent-readiness dimensions (by the maintainers of this list) ([source](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness/releases/tag/v1.1))
 - **2026-10-31**: Stripe: Scheduled change: Stripe MCP stops accepting full-access secret keys or restricted keys without the Agent tag ([source](https://docs.stripe.com/mcp)) (scheduled)
 
 ## Corrections

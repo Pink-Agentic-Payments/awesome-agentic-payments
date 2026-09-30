@@ -42,7 +42,7 @@
 - **2026-06-18**：Airwallex：推出 AgentOS，一套用于从 AI 智能体环境中操作 Airwallex 账户的工具包（[来源](https://www.airwallex.com/global/blog/introducing-airwallex-agentos-manage-your-financial-operations-in-your-preferred-agent-environment)）
 - **2026-07-01**：Cloudflare：宣布推出 Monetization Gateway，让客户可对 AI 智能体访问的网页、数据集、API 或 MCP 工具进行收费（[来源](https://blog.cloudflare.com/monetization-gateway/)）
 - **2026-07-14**：Linux Foundation：x402 Foundation 正式运营启动，共有 40 家成员组织（[来源](https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications)）
-- **2026-09-28**：PinkWallet（Pink Agentic AI Payment）：发布《Agentic Payments Readiness Report 2026》，对 13 家支付服务商在 7 个智能体就绪度维度上进行评分（本列表维护方发布）（[来源](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness/releases/tag/v1.1)）
+- **2026-09-28**：PinkWallet（Pink Agentic AI Payments）：发布《Agentic Payments Readiness Report 2026》，对 13 家支付服务商在 7 个智能体就绪度维度上进行评分（本列表维护方发布）（[来源](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness/releases/tag/v1.1)）
 - **2026-10-31**：Stripe：计划中的变更：Stripe MCP 将停止接受未带 Agent 标签的完全访问密钥或受限密钥（[来源](https://docs.stripe.com/mcp)）（计划中）
 
 ## 更正

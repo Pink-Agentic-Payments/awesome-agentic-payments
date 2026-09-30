@@ -4,7 +4,7 @@ English | [简体中文](./README.zh-CN.md)
 
 A curated list of protocols, MCP servers, wallets, spending controls and research for letting AI agents make payments safely.
 
-Maintained by the team behind Pink Agentic AI Payment (PinkWallet); entries are selected on merit and include competitors.
+Maintained by the team behind Pink Agentic AI Payments (PinkWallet); entries are selected on merit and include competitors.
 
 Every link below was fetched directly and confirmed live on 2026-09-29 (see [`link-check.csv`](./link-check.csv) in this repo for the full audit trail). Every description is sourced from the linked page itself — see the same file for exactly which URL each description came from.
 
@@ -53,7 +53,7 @@ Official vendor MCP servers whose own documentation describes tools that create 
 - [Crossmint Agent Checkouts](https://docs.crossmint.com/agents/overview) — Remote MCP server (create-order, check-order, get-usd-balance) that executes real purchases once the environment variable is switched from test to prod. Per the [checkout MCP server's README](https://github.com/Crossmint/mcp-crossmint-checkout), the item is delivered with expedited shipping, a receipt is generated and sales tax is collected.
 - [Locus](https://paywithlocus.com/) — "One Account for Every AI Agent Tool": gives "an AI agent one connection to a catalog of paid APIs and proprietary data sources," used "from one balance instead of relying on separate provider accounts, subscriptions, and API keys."
 - [Payman (Genie)](https://github.com/PaymanAI/genie-mcp-stdio) — A local stdio bridge to Payman's remote Genie MCP server, authenticated via OAuth 2.0 with PKCE. The official README documents an `ask_genie` natural-language tool plus self-service account-management tools; it does not itemize payment-execution tools.
-- [Pink Agentic AI Payment](https://pinkwallet.com/agentic/?utm_source=github&utm_medium=awesome-list) — "Lets AI agents connect and pay through MCP while a policy engine enforces each customer's spending rules before any payment executes." MCP server + spending rules enforced before a payment executes (early access — no public sandbox or package yet; join the waitlist). *(maintained by the list authors)*
+- [Pink Agentic AI Payments](https://pinkwallet.com/agentic/?utm_source=github&utm_medium=awesome-list) — "Lets AI agents connect and pay through MCP while a policy engine enforces each customer's spending rules before any payment executes." MCP server + spending rules enforced before a payment executes (early access — no public sandbox or package yet; join the waitlist). *(maintained by the list authors)*
 - [Skyfire (KYA / KYAPay)](https://docs.skyfire.xyz/docs/developer-documentation) — Identity-plus-payment token protocol: "each buyer agent has a wallet, funded by the user," which presents signed JWT tokens (kya, pay, kya-pay) to seller MCP servers, APIs or websites to transact.
 - [Tempo Wallet CLI](https://tempo.xyz/developers/docs/wallet/use-with-agents) — Command-line wallet where "each wallet can have multiple access keys with independent spending limits." `--max-spend` "stop[s] if the request would exceed a spend cap," and `--dry-run` previews cost and validates a request before committing funds.
 
