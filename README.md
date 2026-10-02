@@ -10,6 +10,8 @@ Every link below was fetched directly and confirmed live on 2026-09-29 (see [`li
 
 See also: [Agentic Payments Timeline (2024–2026)](./TIMELINE.md): 30 dated, source-linked events from MCP's release to the x402 Foundation.
 
+See also: [agentic-ai-payments](https://github.com/Pink-Agentic-Payments/agentic-ai-payments) — an open developer guide to agentic AI payments (protocols, providers, spending controls, sandbox quickstart), maintained by the same team.
+
 ## Contents
 
 - [Protocols & Standards](#protocols--standards)
