@@ -44,6 +44,7 @@
 - [Razorpay MCP Server](https://razorpay.com/docs/developer-tools/mcp-server/) — 托管式或自托管（Docker）服务器，提供 35 个以上工具，包括 capture_payment、create_refund 与 create_instant_settlement；支持 READ_ONLY 标志，将服务器限制为只读操作。
 - [Square MCP Server](https://developer.squareup.com/docs/mcp) — 托管式（mcp.squareup.com/mcp）或本地服务器，提供对 Square API 中"customers, orders, items, and more"（译：客户、订单、商品等）的访问。Square"maintains an allowlist of MCP clients in order to protect against malicious client registration attempts."（译：维护一份 MCP 客户端白名单，以防范恶意客户端注册行为）。目前处于 Beta 阶段。
 - [Stripe MCP Server](https://docs.stripe.com/mcp) — 托管式（mcp.stripe.com）或本地服务器，提供通用的 API 读写工具。像退款、对外付款这样的敏感写操作，需要人工通过一个链接进行确认，该链接若未获批准会在 24 小时后失效。自 2026-10-31 起，"Stripe MCP no longer accepts full-access secret keys or restricted API keys without the Agent tag."（译：Stripe MCP 将不再接受未带 Agent 标签的完全访问密钥或受限 API 密钥）。
+- [Voidpay Marketplace MCP](https://github.com/voidly-ai/pay-mcp) — 面向 Voidly 智能体服务市场的本地（`npx -y @voidly/pay-mcp@0.7.3`）或托管（`https://api.voidly.ai/mcp/voidpay`）连接器。据其 README："A checkout link sends the owner to the browser for review and payment. The connector does not sign transactions, hold wallet keys, or make autonomous purchases."（译：结账链接将所有者带到浏览器中审核并付款。该连接器不签署交易、不持有钱包密钥，也不会自主购买）。Apache-2.0。
 
 ## 智能体钱包与支付基础设施
 

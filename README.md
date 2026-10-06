@@ -46,6 +46,7 @@ Official vendor MCP servers whose own documentation describes tools that create 
 - [Razorpay MCP Server](https://razorpay.com/docs/developer-tools/mcp-server/) — Hosted or self-hosted (Docker) server with 35+ tools including capture_payment, create_refund and create_instant_settlement; supports a READ_ONLY flag to restrict the server to read-only operations.
 - [Square MCP Server](https://developer.squareup.com/docs/mcp) — Hosted (mcp.squareup.com/mcp) or local server giving access to "customers, orders, items, and more" across the Square API. Square "maintains an allowlist of MCP clients in order to protect against malicious client registration attempts." Currently in Beta.
 - [Stripe MCP Server](https://docs.stripe.com/mcp) — Hosted (mcp.stripe.com) or local server exposing generic API read/write tools. Sensitive writes such as refunds and outbound payments require human confirmation via a URL that expires after 24 hours if unapproved. From 2026-10-31, "Stripe MCP no longer accepts full-access secret keys or restricted API keys without the Agent tag."
+- [Voidpay Marketplace MCP](https://github.com/voidly-ai/pay-mcp) — Local (`npx -y @voidly/pay-mcp@0.7.3`) or hosted (`https://api.voidly.ai/mcp/voidpay`) connector for Voidly's marketplace of AI-agent services. Per its README, "A checkout link sends the owner to the browser for review and payment. The connector does not sign transactions, hold wallet keys, or make autonomous purchases." Apache-2.0.
 
 ## Agent Wallets & Payment Infrastructure
 
