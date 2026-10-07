@@ -2,6 +2,8 @@
 
 English | [简体中文](./README.zh-CN.md)
 
+> **New:** can you make an AI agent overspend? Try our open challenge against the sandbox (test money only): [overspend-challenge](https://github.com/Pink-Agentic-Payments/overspend-challenge)
+
 A curated list of protocols, MCP servers, wallets, spending controls and research for letting AI agents make payments safely.
 
 Maintained by the team behind Pink Agentic AI Payments (PinkWallet); entries are selected on merit and include competitors.
