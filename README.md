@@ -51,6 +51,7 @@ Official vendor MCP servers whose own documentation describes tools that create 
 
 ## Agent Wallets & Payment Infrastructure
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) — "APN is an open-source, local-first payment runtime for AI agents."
 - [Airwallex AgentOS](https://www.airwallex.com/docs/developer-tools/ai/agentos) — CLI plus MCP connector for a production Airwallex account. "AgentOS components do not initiate money-out actions (transfers, FX conversions, or payouts) on your behalf" by default; write tools require explicit confirmation.
 - [Circle Agent Wallets](https://developers.circle.com/agent-stack/agent-wallets) — Lets developers "set USDC spending limits for outbound transfers and x402 payments," with limits that "can be time-bound," plus wallet/contract allow- and blocklists and sanctions screening before onchain submission.
 - [Coinbase Agentic Wallet / AgentKit](https://docs.cdp.coinbase.com/agentic-wallet/cli/welcome) — Wallet CLI for AI agents to hold and send USDC, with "configurable caps per session and per transaction" and automatic OFAC sanctions-list screening on all transfers.
