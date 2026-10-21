@@ -75,6 +75,7 @@ Products and libraries whose primary purpose is enforcing a budget, allowlist or
 
 Runnable code, not just specs.
 
+- [AgentGate](https://github.com/agentgate-builder/agentgate) — Open-source (MIT) x402 identity gate on the Concordium Agent Registry (CIS-8004): "one line of middleware that lets only agents with an accountable owner reach your paid routes. Unverified agents are rejected before they are asked to pay."
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) — "Every AI Agent deserves a wallet." Open-source SDK for giving AI agents an onchain wallet and payment actions.
 - [Locus Pro Plugin](https://github.com/locus-technologies/locus-pro-plugin) — Official plugin whose README recommends agents "quote significant calls with `estimate_cost` first, and to confirm with you before unusually large spends," and notes "spend limits and approvals are configured per workspace in the dashboard."
 - [MPP Quickstart](https://mpp.dev/quickstart/) — "Get started with MPP in minutes" — official quickstart for the Machine Payments Protocol, with SDKs in TypeScript, Python, Rust, Go and Ruby.
