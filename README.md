@@ -70,6 +70,7 @@ Products and libraries whose primary purpose is enforcing a budget, allowlist or
 - [PayAgents](https://payagents.io/) — "Payment Orchestration for AI Agents & MCP Servers." Policy-controlled wallet for Bitcoin Lightning (L402) and Base-chain USDC (x402) payments, with per-transaction, per-day and per-30-day spend caps, destination allow/denylists and an audit trail.
 - [PolicyLayer](https://policylayer.com/) — "The system of record for AI agent authority." Acts as a proxy in front of any MCP server, evaluating every tools/call request against a YAML policy file and forwarding, blocking, rate-limiting, or routing it to a human for approval.
 - [SpendNod](https://www.spendnod.com/) — "Open-source authorization gateway for AI agents." MIT-licensed and self-hosted; agents call an `authorize_transaction` tool before every purchase, checked against spending thresholds, vendor blocklists, daily caps and category rules.
+- [web3-tx-guard-agentkit](https://github.com/2848823170/web3-tx-guard-agentkit) — "Zero-dependency pre-execution transaction, calldata & EIP-712 signature firewall for `Coinbase AgentKit`, `ElizaOS`, `GOAT SDK`, and `viem` — powered by native `x402` Base Mainnet `USDC` (`$0.01/call`) + deterministic offline cryptographic fallback." Before signing an HTTP 402 EIP-3009 `TransferWithAuthorization` challenge, `verifyX402QuoteSafety()` checks the canonical Base Mainnet USDC contract, a per-call cap (`maxAtomicUsdcPerCall`, default `$0.02 USDC`), and an optional `allowedPayTo` allowlist.
 
 ## SDKs, Examples & Tutorials
 
